@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demo.reader.impl.JsoupWebPageReaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-20T12:58:25" hostname="Vinays-MacBook-Pro.local" time="0.454">
+  <properties/>
+  <testcase name="shouldThrowError_whenEmptyUrlIsSent()" classname="com.demo.reader.impl.JsoupWebPageReaderTest" time="0.01"/>
+  <testcase name="shouldThrowError_whenNullUrlIsSent()" classname="com.demo.reader.impl.JsoupWebPageReaderTest" time="0.001"/>
+  <testcase name="shouldReadPageAndGetLinks_whenValidUrlIsPassed()" classname="com.demo.reader.impl.JsoupWebPageReaderTest" time="0.441"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
