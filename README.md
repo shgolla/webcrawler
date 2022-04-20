@@ -19,6 +19,9 @@ The program returns visited pages and links contained in each page.
 * Concurrent Ability
 * Design Thinking to make it extensible
 
+## Webcrawler class daigram
+![WebCrawler Class diagram](/images/webcrawler_classdaigram.png)
+
 ## Running it Locally
 * Clone this project locally and import it as a gradle project in Intellij
 * Run WebCrawlerMain class to see the Results
@@ -28,15 +31,15 @@ The program returns visited pages and links contained in each page.
 ```
 ################################ Printing Webcrawler Results ########################
 
-No.of pages visited by webcrawler 1 : 10 <br/>
+No.of pages visited by webcrawler 1 : 10 
 Pages visited by webcrawler 1 are : [https://monzo.com/, https://monzo.com/i/business/, https://monzo.com/i/business/business-switch/, https://monzo.com/i/business/help/, https://monzo.com/i/business/eligibility/, https://monzo.com/i/business/testimonials/, https://monzo.com/i/business, https://monzo.com/i/business/features/, https://monzo.com/-deeplinks/business_account_signup/, https://monzo.com/i/business/sign-up-for-business/]
-<br/>Showing all visited Pages and Urls in each page for webcrawler 1
-<br/>{https://monzo.com/=[#, /, /, /, /i/business, /i/current-account/, ...]}
+Showing all visited Pages and Urls in each page for webcrawler 1
+{https://monzo.com/=[#, /, /, /, /i/business, /i/current-account/, ...]}
 
  ################################ Printing Webcrawler Results ########################
  
-No.of pages visited by webcrawler 2 : 10 <br/>
+No.of pages visited by webcrawler 2 : 10 
 Pages visited by webcrawler 2 are : [https://revolut.com/revolut-premium, https://revolut.com/payments, https://revolut.com, https://revolut.com/introducing-revolut-metal, https://revolut.com/currency-converter, https://revolut.com/metal, https://revolut.com/revolut-plus, https://revolut.com/our-pricing-plans, https://revolut.com/app, https://revolut.com/a-radically-better-account]
-<br/>Showing all visited Pages and Urls in each page for webcrawler 2
-<br/>{https://revolut.com/revolut-premium=[/, https://app.revolut.com/start, https://revolut.com/app, ...]}```
+Showing all visited Pages and Urls in each page for webcrawler 2
+{https://revolut.com/revolut-premium=[/, https://app.revolut.com/start, https://revolut.com/app, ...]}
 
