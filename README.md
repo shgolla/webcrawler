@@ -22,6 +22,11 @@ The program returns visited pages and links contained in each page.
 ## Webcrawler class daigram
 ![WebCrawler Class diagram](/images/webcrawler_classdaigram.png)
 
+## Webcrawler System context diagram
+Below daigram shows a system context daigram if we intend to build long running, scalable, fault Tolerant and Highly Available Webcrawler system
+![Webcrawler system context diagram](/images/Webcrawler_system_context_diagram.png)
+
+
 ## Running it Locally
 * Clone this project locally and import it as a gradle project in Intellij
 * Run WebCrawlerMain class to see the Results
