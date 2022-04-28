@@ -5,19 +5,19 @@ This is a very simple pet project to simulate part of webcrawler functionality.
 WebCrawler class is responsible to take a starting URL, read its contents and visit all links contained with in each page for a configurable nested level of maximum depth
 The program returns visited pages and links contained in each page.
 
-## Features
-* Java 8 and Gradle based project
-* Multi Thread Enabled to spin up and crawl multiple webpages simultaneously
-* Extensible for adding more filtering rules to blacklist pages that should not be visited
-* Follows SOLID Principles
-* Coded to Interfaces
-* Completely unit tested using Junit 5
-
 ## Requirements that this project achieves
 * Given a starting URL, the crawler should visit each URL it finds on the same domain. It should print each URL visited, and a list of links found on that page.
 * WebCrawler should not follow sites external to the Top Domain. So when you start with *https://monzo.com/*, it would crawl all pages on the monzo.com website, but not follow external links, for example to facebook.com or community.monzo.com.
-* Concurrent Ability
-* Design Thinking to make it extensible
+
+
+## Features
+* Java 8 and Gradle based project
+* Concurrent Ability - Multi Thread Enabled to spin up and crawl multiple webpages simultaneously
+* Extensible for adding more filtering rules to blacklist pages that should not be visited
+* Design Thinking - Follows SOLID Principles
+* Coded to Interfaces
+* Completely unit tested using Junit 5
+
 
 ## Webcrawler class daigram
 ![WebCrawler Class diagram](/images/webcrawler_classdaigram.png)
