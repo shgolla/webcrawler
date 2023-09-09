@@ -10,7 +10,7 @@ The program returns visited pages and links contained in each page.
 * WebCrawler should not follow sites external to the Top Domain. So when you start with *https://monzo.com/*, it would crawl all pages on the monzo.com website, but not follow external links, for example to facebook.com or community.monzo.com.
 
 
-## Features
+## Features covered
 * Java 8 and Gradle based project
 * Concurrent Ability - Multi Thread Enabled to spin up and crawl multiple webpages simultaneously
 * Extensible for adding more filtering rules to blacklist pages that should not be visited
